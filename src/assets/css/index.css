@@ -331,7 +331,7 @@ section a {
 @media (min-width: 1024px) {
     .header-wrapper {
         gap: 256px;
-        padding: 0 0 0 40px;
+        padding: 0 0 0 100px;
     }
 }
 
@@ -510,6 +510,8 @@ section a {
 
     .hero-info .btn {
         width: fit-content;
+        height: 50px;
+        padding: 40px 54px;
     }
 
     .hero-info__item {
@@ -520,7 +522,7 @@ section a {
 
 @media (min-width: 1360px) {
     .hero-info {
-        padding: 160px 0 50px 40px;
+        padding: 160px 0 50px 100px;
     }
 
     .hero-info h1 {
@@ -927,10 +929,9 @@ section a {
         font-size: 19px;
     }
 
-    /* .form-wrapper__img {
-        max-width: 636px;
-        width: 100%;
-    } */
+    .form-wrapper form .btn {
+        padding: 19px 54px;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -958,6 +959,7 @@ section a {
 
     .form-wrapper form .btn {
         height: 100px;
+        padding: 31px 54px;
     }
 
     .form-policy {
@@ -1073,6 +1075,8 @@ section a {
 
     .footer-bottom .btn {
         width: fit-content;
+        height: 40px;
+        padding: 13px 35.1px;
     }
 
     .footer-bottom__info {
@@ -1100,6 +1104,11 @@ section a {
     .footer-bottom__social {
         gap: 32px;
     }
+
+    .footer-bottom .btn {
+        height: 55px;
+        padding: 22.3px 60px;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -1115,6 +1124,7 @@ section a {
     .footer-bottom .btn {
         margin-left: auto;
         padding: 22.3px 110px;
+        height: unset;
     }
 
     .footer-bottom__policy {
